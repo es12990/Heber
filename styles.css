@@ -1,0 +1,21 @@
+
+
+  #home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/ice_castle.jfif");
+    height: 20vw;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+   margin-top: 0;
+   
+  }
+
+  body {
+      margin: 0;
+  }
+
+  h1 {
+      margin: 0;
+  }
+  
