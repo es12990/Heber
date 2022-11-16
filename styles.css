@@ -1,14 +1,36 @@
 
 
   #home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/ice_castle.jfif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("images/wasatch.jpg");
     height: 20vw;
-    background-position: 100% 100%;
+    background-position: 100% 60%;
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: top;
-   margin-top: 0;
-   
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #home > h1, h3, nav {
+    padding: 0;
+    margin:auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: rgba(255, 255, 255, .6)
+  }
+
+  #home > h1 {
+    font-size: 500%;
+  }
+
+  #home > h3 {
+    font-size: 250%;
+  }
+
+  article > h2 {
+    text-align: center;
   }
 
   body {
@@ -17,5 +39,36 @@
 
   h1 {
       margin: 0;
+  }
+
+  .grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 1vw;
+    margin-left: 5%;
+    gap: 1%;
+    
+  }
+
+  .grid-item {
+    background-color: rgba(235, 240, 255, .4);
+  }
+  
+  main {
+    background-color: darkolivegreen;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  body {
+    background-color: darkolivegreen;
   }
   
